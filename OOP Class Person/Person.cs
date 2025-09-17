@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 namespace OOP_Class_Person
 {
     public class Person
-    {
-       
+    { 
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int BirthYear { get; set; }
@@ -16,7 +15,6 @@ namespace OOP_Class_Person
         {
             int currentYear = DateTime.Now.Year;
             return currentYear - BirthYear;
-
         }
 
 
@@ -32,39 +30,5 @@ namespace OOP_Class_Person
         {
             Console.WriteLine($"{FirstName} {LastName} och är född {BirthYear} och är {GetAge()} år gammal");
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
