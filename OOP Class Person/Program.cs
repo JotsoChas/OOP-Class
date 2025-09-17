@@ -1,6 +1,4 @@
-﻿using OOP_Class_Movie;
-
-namespace OOP_Class_Movie
+﻿namespace OOP_Class_Person
 {
     internal class Program
     {

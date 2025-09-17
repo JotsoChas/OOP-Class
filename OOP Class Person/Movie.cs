@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOP_Class_Movie
+namespace OOP_Class_Person
 {
     public class Movie
     { 
@@ -57,6 +57,7 @@ namespace OOP_Class_Movie
                     FileName = ImdbUrl,
                     UseShellExecute = true
                 });
+
             }
         }
         
