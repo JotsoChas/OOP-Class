@@ -34,7 +34,6 @@ namespace OOP_Class_Movie
 
          public string ImdbUrl { get; set; }
 
-
         public Movie(string title, string genre, int rating, string imdbUrl)
         {
             Title = title;
